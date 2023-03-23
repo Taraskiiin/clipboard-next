@@ -1,6 +1,13 @@
 import Head from 'next/head';
+import { Bai_Jamjuree } from 'next/font/google';
+
+export const baiJamjuree = Bai_Jamjuree({
+	subsets: ['latin'],
+	weight: ['300', '400', '500', '600', '700'],
+});
 
 import Hero from '@/components/hero';
+import Snippets from '@/components/snippets';
 
 export default function Home() {
 	return (
@@ -8,8 +15,9 @@ export default function Home() {
 			<Head>
 				<title>Clipboard</title>
 			</Head>
-			<main className='bg-red'>
+			<main className={baiJamjuree.className}>
 				<Hero />
+				<Snippets />
 			</main>
 		</>
 	);
