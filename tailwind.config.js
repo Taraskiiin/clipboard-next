@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ['./src/**/*.{js,ts,jsx,tsx}'],
+	content: [
+		'./app/**/*.{js,ts,jsx,tsx}',
+		'./pages/**/*.{js,ts,jsx,tsx}',
+		'./components/**/*.{js,ts,jsx,tsx}',
+	],
 	theme: {
 		screens: {
 			sm: '480px',
@@ -14,9 +18,6 @@ module.exports = {
 				lightBlue: 'hsl(233, 100%, 69%)',
 				darkGrayishBlue: 'hsl(210, 10%, 33%)',
 				grayishBlue: 'hsl(201, 11%, 66%)',
-			},
-			fontFamily: {
-				sans: ['Bai Jamjuree', 'sans-serif'],
 			},
 		},
 	},
