@@ -4,8 +4,8 @@ import Link from 'next/link';
 
 export default function Hero() {
 	return (
-		<section className='flex justify-center'>
-			<div className='section-container mb-40 px-10 pt-16'>
+		<section>
+			<div className='section-container mb-40 pt-16'>
 				<img
 					src='/assets/logo.svg'
 					alt='logo image'

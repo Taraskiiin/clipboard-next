@@ -8,6 +8,7 @@ export const baiJamjuree = Bai_Jamjuree({
 
 import Hero from '@/components/hero';
 import Snippets from '@/components/snippets';
+import Features from '@/components/features';
 
 export default function Home() {
 	return (
@@ -18,6 +19,7 @@ export default function Home() {
 			<main className={baiJamjuree.className}>
 				<Hero />
 				<Snippets />
+				<Features />
 			</main>
 		</>
 	);
