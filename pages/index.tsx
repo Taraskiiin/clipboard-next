@@ -13,6 +13,7 @@ import Access from '@/components/access';
 import Supercharge from '@/components/supercharge';
 import References from '@/components/references';
 import Bottom from '@/components/bottom';
+import Footer from '@/components/footer';
 
 export default function Home() {
 	return (
@@ -28,6 +29,7 @@ export default function Home() {
 				<Supercharge />
 				<References />
 				<Bottom />
+				<Footer />
 			</main>
 		</>
 	);
