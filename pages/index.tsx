@@ -10,6 +10,7 @@ import Hero from '@/components/hero';
 import Snippets from '@/components/snippets';
 import Features from '@/components/features';
 import Access from '@/components/access';
+import Supercharge from '@/components/supercharge';
 
 export default function Home() {
 	return (
@@ -22,6 +23,7 @@ export default function Home() {
 				<Snippets />
 				<Features />
 				<Access />
+				<Supercharge />
 			</main>
 		</>
 	);

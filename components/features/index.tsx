@@ -3,13 +3,13 @@ import React from 'react';
 export default function Features() {
 	return (
 		<section>
-			<div className='section-container my-20'>
+			<div className='section-container mx-0 my-20'>
 				<div className='relative flex flex-col md:flex-row md:space-x-32 md:text-left md:items-start md:w-full'>
 					<div className='md:w-1/2'>
 						<img
 							src='/assets/image-computer.png'
 							alt='image with IMac-PC'
-							className='md:absolute top-10 right-[50%]'
+							className='mx-auto md:absolute md:top-10 md:right-[50%]'
 						/>
 					</div>
 					<div className='flex flex-col mt-16 mb-24 space-y-12 text-xl md:w-1/2 md:mb-60 md:text-left md:pl-16'>
