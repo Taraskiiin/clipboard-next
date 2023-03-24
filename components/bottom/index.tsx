@@ -1,20 +1,14 @@
 import React from 'react';
-
 import Link from 'next/link';
 
-export default function Hero() {
+export default function Bottom() {
 	return (
 		<section className='px-10 mb-24'>
-			<div className='section-container mb-40 pt-16'>
-				<img
-					src='/assets/logo.svg'
-					alt='logo image'
-					className='mx-auto my-16'
-				/>
-				<h3>A history of everything you copy</h3>
-				<p className='max-w-3xl mx-auto mb-10 text-2xl text-grayishBlue'>
-					Clipboard allows you to track and organize everything you copy.
-					Instantly access your clipboard on all your devices.
+			<div className='section-container my-20'>
+				<h3>Clipboard for iOS and MacOS</h3>
+				<p className='section-content mb-10 text-xl'>
+					Available for free on the App Store. Download for Mac or iOS, sync
+					with iCloud and you're ready to start adding to your clipboard.
 				</p>
 				<div className='button-container'>
 					<Link

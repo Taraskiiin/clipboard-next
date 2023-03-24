@@ -3,7 +3,7 @@ import React from 'react';
 export default function Features() {
 	return (
 		<section>
-			<div className='section-container mx-0 my-20'>
+			<div className='section-container mx-0 my-20 px-10'>
 				<div className='relative flex flex-col md:flex-row md:space-x-32 md:text-left md:items-start md:w-full'>
 					<div className='md:w-1/2'>
 						<img

@@ -3,7 +3,7 @@ import React from 'react';
 export default function Supercharge() {
 	return (
 		<section>
-			<div className='section-container my-20'>
+			<div className='section-container my-20  px-10'>
 				<h3>Supercharge your workflow</h3>
 				<p className='max-w-3xl mx-auto text-grayishBlue mb-16 text-xl'>
 					We've got the tools to boost your productivity.

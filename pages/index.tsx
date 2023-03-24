@@ -11,6 +11,8 @@ import Snippets from '@/components/snippets';
 import Features from '@/components/features';
 import Access from '@/components/access';
 import Supercharge from '@/components/supercharge';
+import References from '@/components/references';
+import Bottom from '@/components/bottom';
 
 export default function Home() {
 	return (
@@ -24,6 +26,8 @@ export default function Home() {
 				<Features />
 				<Access />
 				<Supercharge />
+				<References />
+				<Bottom />
 			</main>
 		</>
 	);
